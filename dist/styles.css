@@ -259,7 +259,7 @@ button {
   border-radius: 0;
   border: none;
   background: #000;
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .player-scores-hud {
@@ -284,14 +284,14 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 10px 0;
   width: 300px;
   font-size: 1.5em;
 }
 
 .new-game-btn {
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 75px;
   font-size: 2em;
   background: black;
   border: 2px solid #fff;
@@ -330,20 +330,20 @@ button {
 
 @media (min-width: 768px) {
   header {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .container .row .box {
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
   }
   .container .row .box button {
-    font-size: 7em;
+    font-size: 6em;
   }
   .player-scores,
-  .player-scores-titles,
-  .new-game-btn {
-    width: 600px;
-    font-size: 3em;
+  .player-scores-titles {
+    width: 300px;
+    font-size: 1.75em;
+    padding: 10px 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */

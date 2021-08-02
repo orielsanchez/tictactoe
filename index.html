@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./dist/styles.css" />
+		<title>Tic Tac Toe</title>
+	</head>
+	<body>
+		<header>
+			<h1>Tic-Tac-Toe</h1>
+		</header>
+		<div class="container">
+			<!-- Row 1 -->
+			<div class="row">
+				<div class="box">
+					<button id="r1c1" class="box-btn bb br"></button>
+				</div>
+				<div class="box">
+					<button id="r1c2" class="box-btn bb br"></button>
+				</div>
+				<div class="box">
+					<button id="r1c3" class="box-btn bb"></button>
+				</div>
+			</div>
+
+			<!-- Row 2 -->
+			<div class="row">
+				<div class="box">
+					<button id="r2c1" class="box-btn bb br"></button>
+				</div>
+				<div class="box">
+					<button id="r2c2" class="box-btn bb br"></button>
+				</div>
+				<div class="box">
+					<button id="r2c3" class="box-btn bb"></button>
+				</div>
+			</div>
+
+			<!-- Row 3 -->
+			<div class="row">
+				<div class="box">
+					<button id="r3c1" class="box-btn br"></button>
+				</div>
+				<div class="box">
+					<button id="r3c2" class="box-btn br"></button>
+				</div>
+				<div class="box">
+					<button id="r3c3" class="box-btn"></button>
+				</div>
+			</div>
+		</div>
+		<div class="player-scores-hud">
+			<ul class="player-scores-titles">
+				<li>Player X</li>
+				<li>Tie</li>
+				<li>Player O</li>
+			</ul>
+			<ul class="player-scores">
+				<li class="player-x">0</li>
+				<li class="tie-score">0</li>
+				<li class="player-o">0</li>
+			</ul>
+		</div>
+
+		<button class="new-game-btn">New Game</button>
+		<script src="./tictactoe.js"></script>
+	</body>
+</html>

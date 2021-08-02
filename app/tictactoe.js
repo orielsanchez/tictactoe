@@ -95,7 +95,6 @@ function equals3(a, b, c) {
 }
 
 function winningMovesFlash(a, b, c) {
-	console.log(a);
 	let box1 = document.getElementById(a);
 	let box2 = document.getElementById(b);
 	let box3 = document.getElementById(c);
@@ -175,5 +174,4 @@ function gameOver(player) {
 	playerXScoreText.textContent = `${playerXScore}`;
 	playerOScoreText.textContent = `${playerOScore}`;
 	tieScoreText.textContent = `${tieScore}`;
-	console.log("Game Over");
 }
